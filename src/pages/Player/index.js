@@ -20,7 +20,6 @@ useEffect(() => {
 }, [])
 
 // const video = videos.find( video=> video.id === Number(parametros.id))
-console.log(video)
 if(!video.id) return <NotFound/>
     return (
         <> 
